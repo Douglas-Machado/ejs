@@ -6,28 +6,16 @@ app.set('view engine', 'ejs')
 app.get('/', function(req, res){
   const quality = [
     {
-      title: 'L',
-      message: 'inda'
-    },
-    {
-      title: 'O',
-      message: 'rgulhosa'
-    },
-    {
-      title: 'R',
-      message: 'omco'
-    },
-    {
       title: 'E',
-      message: 'splendida'
+      message: 'mbedded'
     },
     {
-      title: 'N',
-      message: 'arguines'
+      title: 'j',
+      message: 'ava'
     },
     {
-      title: 'A',
-      message: 'stronauta'
+      title: 'S',
+      message: 'cript'
     }
   ];
   res.render('pages/index', {
